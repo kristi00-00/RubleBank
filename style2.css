@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+body{font-family: 'Montserrat', sans-serif;
+    margin: 0;
+
+}
+a{
+    color: #424242;
+    text-decoration:none;
+}
+ul{  
+   padding: 0;
+    margin: 0;}
+
+.top-header{
+    border-bottom: 1px solid #DEDEDE;
+}
+.container{
+    margin: auto;
+    width: 1140px;
+}
+.d-flex{
+    display: flex;
+}
+.flex-sb{
+    justify-content: space-between;
+}
+.flex-ad{
+    justify-content: space-around;
+
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.logo{
+    margin: auto;
+    margin-right: 80px;
+}
+.top-header-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 60px;
+    align-items: center;
+}
+
+.top-header-menu-list-1{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    list-style: none;
+}
+
+.top-header-menu-list-2{
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+    list-style: none;
+}
+.text-blue{
+    color: blue;
+}
+.underline{
+    text-decoration: underline;
+
+}
+
+.top-manu{
+    border-bottom: 1px solid #DEDEDE;
+}
+.top-manu-list{
+    display: flex;
+    margin: auto;
+    width: 1140px;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    list-style: none;
+}
+.top-manu-list{
+    text-decoration: none;
+}
+h1{
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.kar{ 
+    margin-top: 70px;
+    border-radius: 8px;
+    background: #EFF2F5;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.05);
+    width: 1140px;
+    height: 402px;
+}
+h2{
+    padding-top: 30px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 130%; /* 41.6px */
+
+}
+p{
+   
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 200%; /* 40px */
+}
+.kar-btn{
+    padding-top: 30px ;
+} 
+.btn{margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 55px;
+
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+}
+.btn-blue{
+    background: #3A95FF;
+  
+    color: #DEDEDE;
+    margin-right: 30px;
+}
+.btn-write{
+    color: #3A95FF;
+    border: 1px solid #3A95FF;
+
+}
+.foot-min{margin-top: 70px;
+    height: 200px;
+    background: #EFF2F5;
+}
+.foot-min-1{margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+.foot-min-1 p{font-size: 14px;
+
+line-height: 130%;}
+.foot-min-1 h6{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 130%;}
+.foot-min-3{
+    margin-top: 15px ;
+   
+}

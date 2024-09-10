@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+
+}
+a{
+    color: #424242;
+    text-decoration:none;
+}
+ul{  
+   padding: 0;
+    margin: 0;}
+
+.top-header{
+    border-bottom: 1px solid #DEDEDE;
+}
+.container{
+    margin: auto;
+    width: 1140px;
+}
+.d-flex{
+    display: flex;
+}
+.flex-sb{
+    justify-content: space-between;
+}
+.flex-ad{
+    justify-content: space-around;
+
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.logo{cursor: pointer;
+    margin: auto;
+    margin-right: 80px;
+}
+.top-header-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    height: 60px;
+    align-items: center;
+}
+
+.top-header-menu-list-1{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    list-style: none;
+}
+
+.top-header-menu-list-2{
+    display: flex;
+    justify-content: space-between;
+    width: 370px;
+    list-style: none;
+}
+.text-blue{
+    color: blue;
+}
+.underline{
+    text-decoration: underline;
+
+}
+
+.top-manu{
+    border-bottom: 1px solid #DEDEDE;
+}
+.top-manu-list{
+    display: flex;
+    margin: auto;
+    width: 1140px;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    list-style: none;
+}
+.top-manu-list{
+    text-decoration: none;
+}
+
+.main-banner{
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+}
+.main-banner-1 h1{
+    margin-top:  80px ;
+    margin-bottom: 80px;
+    font-size:  52px;
+}
+.btn{margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 55px;
+
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+}
+.btn-blue{
+    background: #3A95FF;
+  
+    color: #DEDEDE;
+    margin-right: 30px;
+}
+.btn-write{
+    color: #3A95FF;
+    border: 1px solid #3A95FF;
+
+}
+.best-offers h2{
+    font-size: 40px;
+    margin: 30px 0 ;
+}
+.best-offers-1 {
+    margin-top: 30px;
+    width: 555px;
+    height: 300px;
+    background: #EFF2F5;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+}
+.best-offers-1 h3{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+}
+.best-offers-1 p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 130%;
+
+}
+.margin-left{
+    margin-left: 34px;
+}
+.kar{ 
+    padding-top: 100px;
+    margin-top:60px;
+    background: #EFF2F5;
+    height: 600px;
+}
+
+.kar-1{ 
+    width: 750px;
+    height: 500px;
+    background: #E0E5EA;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.padding-left{
+    padding-left: 100px;
+}
+.kredit h4{
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 130%;
+
+}
+.kredit-2 {
+
+    height:60px;
+}
+.mini { 
+    margin-top: -30px;
+    text-align: center;
+    width: 157px ;
+    border-bottom:1px solid #3A95FF;
+    margin-right: 60px;
+}
+h5{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 130%;}
+.mini p{
+    margin-top: -40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 130%;
+    
+}
+.kar-btn{
+    margin-top: 100px;
+}
+.btn{margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 55px;
+
+    border-radius: 3px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 130%;
+}
+.btn-blue{
+    background: #3A95FF;
+  
+    color: #DEDEDE;
+    margin-right: 30px;
+}
+.btn-write{
+    color: #3A95FF;
+    border: 1px solid #3A95FF;
+
+}
+.kar-2-mini {
+    cursor: pointer;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 360px;
+    height: 235px;
+    background: #F7F7F7;
+    border-radius: 8px;
+    box-shadow: -5px -5px 25px rgba(255, 255, 255, 0.25), 5px 5px 25px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    border-bottom:5px solid #3A95FF;
+    }
+.kar-2-mini h4{
+    margin-left: 30px;}
+
+.strelka{
+    margin-left: 280px;
+    width: 48px;
+    height: 48px;
+}
+.karti{
+    height: 300px;
+}
+
+.foot-min{
+    height: 200px;
+    background: #EFF2F5;
+}
+.foot-min-1{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+.foot-min-1 p{
+    font-size: 14px;
+    line-height: 130%;
+}
+.foot-min-1 h6{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 130%;}
+.foot-min-3{
+    margin-top: 15px ;
+   
+}
